@@ -1,0 +1,1 @@
+<?php // You should never see this file. The homepage template is in view/_templates/quote/index.php ?>

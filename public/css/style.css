@@ -1,0 +1,105 @@
+body {
+    font-family: Arial;
+    font-size: 14px;
+}
+.logo, .logo a {
+    font-size: 2.01em;
+    font-weight: bolder;
+    letter-spacing: -6px;
+    color: #222;
+    margin: 20px 15px;
+    text-decoration: none;
+}
+.logo .subtext, .logo .subtext a {
+    color: #222;
+    opacity: 0.2
+}
+.navigation {
+    text-align: center;
+}
+.navigation a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid #222;
+    background: #222;
+    color: #fff;
+    margin: 2px 0px;
+}
+.navigation a:hover {
+    color: #222;
+    background: transparent;
+}
+.content {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 33px;
+}
+.content a {
+    color: #222;
+}
+.content h2 {
+    font-size: 40px;
+}
+.quote-list .content h2 {
+    font-size: 20px;
+}
+@media (max-width: 400px) {
+    .content h2 {
+        font-size: 20px;
+    }
+}
+.disclaimer {
+    text-align: center;
+    padding: 10px;
+}
+.permalink {
+    text-align: right;
+    padding: 20px 0px 5px 0px;
+}
+
+.votes {
+    text-align: right;
+    font-size: 35px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.votes a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.votes a:hover {
+    vertical-align: bottom;
+}
+
+.votes span {
+    font-size: 15px;
+    padding: 0px 5px;
+}
+.footer p {
+    text-align: center;
+    color: #fff;
+    margin: 20px 0 0 0;
+    padding: 20px 0;
+    background-color: #222;
+}
+
+.footer a {
+    color: #999;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+h3 {
+    padding: 0px 30px;
+    font-size: 25px;
+    color: #222;
+    letter-spacing: -3px;
+}
